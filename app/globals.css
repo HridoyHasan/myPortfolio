@@ -25,3 +25,45 @@ body {
     text-wrap: balance;
   }
 }
+
+
+/* Add this to your global.css or component's CSS */
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.1em solid #64ffdb00;
+  width: 13%;
+  animation: typing 1.5s steps(30, end), blink-caret 1.3s step-end infinite;;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 13%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  60% { border-color: #64ffdb00; }
+}
+
+
+.typing2 {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.1em solid #64ffdb00;
+  width: 0%;
+  animation: typing2 3s steps(30, end) 1.5s forwards, blink-caret 1.3s step-end infinite 6s;
+}
+
+@keyframes typing2 {
+  from { width: 0; opacity: 1; }
+  to { width: 55%; opacity: 1; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  60% { border-color: #64ffdb00; }
+}
+html {
+  scroll-behavior: smooth;
+}
