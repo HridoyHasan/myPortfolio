@@ -38,7 +38,7 @@ export default function HomePage() {
           I build and test things for the web.
         </h2>
         <p className="max-w-lg text-gray-400 mb-6">
-          I'm a Software Engineer in Test specializing in testing systems. I
+          I&apos;m a Software Engineer in Test specializing in testing systems. I
           also love to develop!
         </p>
         <a
@@ -125,7 +125,7 @@ export default function HomePage() {
                     rel="noopener noreferrer"
                     className="hover:text-gray-400"
                   >
-                    Let's Connect on LinkedIn
+                    Let&apos;s Connect on LinkedIn
                   </a>
                 </p>
               </div>
