@@ -1,6 +1,5 @@
 import './globals.css';
 import './style.css';
-import React, { useState } from 'react';
 
 
 export default function Layout({ children }: { children: React.ReactNode }) {
