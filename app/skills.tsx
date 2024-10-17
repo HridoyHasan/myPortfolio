@@ -7,7 +7,7 @@ const skills = [
     items: [
       { name: "Test Case Design", image: "/tc.png" },
       { name: "Defect Tracking", image: "/dt.png" },
-      { name: "Root Cause Analysis", image: "/db.png" },
+      { name: "Debugging", image: "/db.png" },
       { name: "Manual Testing", image: "/mt.png" },
       { name: "Automation", image: "/at.png" },
       { name: "API Testing", image: "/api.png" },
@@ -19,7 +19,8 @@ const skills = [
       { name: "HTML5", image: "/html.svg" },
       { name: "TailWind", image: "/t.svg" },
       { name: "JavaScript", image: "/js.svg" },
-      { name: "C++", image: "/c++.svg" },
+      { name: "TypeScript", image: "/ts.svg" },
+      { name: "C#", image: "/c++.svg" },
       { name: "MongoDB", image: "/mongo.svg" },
       { name: "Node.js", image: "/node.svg" },
       { name: "Next.js", image: "/next.svg" },
@@ -46,7 +47,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-20 bg-white">
+    <section id="skills" className="py-20 bg-[#f3f5f7]">
       <div className="container mx-auto text-center">
         <h1 className="text-4xl font-bold -mt-4 mb-8 text-black">Skills</h1>
         {skills.map((skillCategory, index) => (

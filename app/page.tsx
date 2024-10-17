@@ -5,6 +5,8 @@ import emailjs from "emailjs-com";
 import ExperienceSection from "./experiences";
 import Skills from "./skills";
 import { useEffect } from "react";
+import ProjectSection from "./project";
+import BlogsPage from "./blog";
 
 export default function HomePage() {
   const form = useRef<any>();
@@ -67,13 +69,11 @@ export default function HomePage() {
       </section>
 
       <section id="projects" className="py-20">
-        <h1>Projects</h1>
-        <p>Details about your projects...</p>
+        <ProjectSection />
       </section>
 
       <section id="blogs" className="py-20">
-        <h1>Blogs</h1>
-        <p>Details about your blogs...</p>
+        <BlogsPage/>
       </section>
 
       <section id="contact" className="contact-section">

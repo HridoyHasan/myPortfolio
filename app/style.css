@@ -44,7 +44,7 @@
 
   #projects {
     padding: 5rem 0;
-    scroll-margin-top: 3rem;
+    scroll-margin-top: 1.2rem;
     background-color: #0a192f;
     color: white;
   }
@@ -61,7 +61,7 @@
 
   #blogs {
     padding: 5rem 0;
-    scroll-margin-top: 3rem;
+    scroll-margin-top: 1rem;
     background-color: #0a192f;
     color: white;
   }
