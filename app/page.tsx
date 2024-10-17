@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import ExperienceSection from "./experiences";
