@@ -23,7 +23,7 @@ export default function HomePage() {
 
   useEffect(() => {
     document.title = "Portfolio"; // Set the page title here
-  }, []); 
+  }, []);
   return (
     <>
       <section
@@ -38,8 +38,8 @@ export default function HomePage() {
           I build and test things for the web.
         </h2>
         <p className="max-w-lg text-gray-400 mb-6">
-          I&apos;m a Software Engineer in Test specializing in testing systems. I
-          also love to develop!
+          I&apos;m a Software Engineer in Test specializing in testing systems.
+          I also love to develop!
         </p>
         <a
           href="/cv.pdf"
@@ -52,7 +52,7 @@ export default function HomePage() {
           <img
             src="/image.jpg"
             alt="Quazi Mahabubul Hasan"
-            className="w-48 h-48 md:w-48 md:h-48 rounded-full object-cover shadow-lg"
+            className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full object-cover shadow-lg mx-auto sm:mx-0"
           />
         </div>
       </section>
@@ -72,7 +72,7 @@ export default function HomePage() {
       </section>
 
       <section id="blogs" className="py-20">
-        <BlogsPage/>
+        <BlogsPage />
       </section>
 
       <section id="contact" className="contact-section">

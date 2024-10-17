@@ -1,11 +1,13 @@
 import './globals.css';
 import './style.css';
+import React, { useState } from 'react';
+
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-[#0a192f] text-white">
-      <header id="header">
+      <body className="bg-[#0a192f] text-white mx-auto">
+      <header id="header" className="w-full p-4 sm:p-6 bg-[#0d2538]">
       <nav>
         <div id="logo">
           <a href="#home" className="hover:text-gray-400">Thank you for visiting!</a>
