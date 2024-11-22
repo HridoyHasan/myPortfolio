@@ -18,6 +18,13 @@ const blogs = [
     image: "/blog2.jpg",
     link: "https://medium.com/@hridoyhasan14/stray-dogs-do-they-matter-9b0e844b94fd",
   },
+  {
+    id: 3,
+    title: "Understanding Software Development to Step Up in SQA",
+    summary: "My First ASP.NET Core Journey",
+    image: "/blog3.webp",
+    link: "https://medium.com/@hridoyhasan14/understanding-software-development-to-step-up-in-sqa-my-first-asp-net-core-journey-9663443f53df",
+  },
 ];
 
 const BlogItem = ({ title, summary, image, link }: any) => (
