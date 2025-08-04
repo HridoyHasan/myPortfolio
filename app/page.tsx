@@ -41,7 +41,7 @@ export default function HomePage() {
           confidence; occasionally write a little myself, just for fun.
         </p>
         <a
-          href="/cv.pdf"
+          href="/CV.pdf"
           target="_blank"
           className="mt-6 inline-block px-8 py-3 border border-green-400 rounded text-green-400 hover:bg-green-400 hover:text-[#0a192f] transition"
         >
