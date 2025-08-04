@@ -27,7 +27,7 @@ export default function HomePage() {
     <>
       <section
         id="home"
-        className="min-h-screen flex flex-col justify-center items-start md:px-20 relative bg-[#0a192f] text-white"
+        className="min-h-screen top-35 flex flex-col justify-center items-start md:px-20 relative bg-[#0a192f] text-white"
       >
         <p className="text-green-400 md:text-2xl mb-4 typing">Hi, my name is</p>
         <h1 className="text-4xl md:text-6xl font-bold mb-4 typing2">
@@ -47,11 +47,11 @@ export default function HomePage() {
         >
           Check out my resume!
         </a>
-        <div className="absolute top-40 md:right-20 mr-20">
+        <div className="absolute top-44 md:right-20 mr-20">
           <img
             src="/image.jpg"
             alt="Quazi Mahabubul Hasan"
-            className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full object-cover shadow-lg mx-auto sm:mx-0"
+            className="w-36 h-36 sm:w-44 sm:h-44 md:w-52 md:h-52 rounded-full object-cover shadow-lg mx-auto sm:mx-0"
           />
         </div>
       </section>

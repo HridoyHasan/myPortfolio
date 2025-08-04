@@ -44,7 +44,7 @@ const experiences = [
   {
     title: "Officer",
     company: "bKash",
-    year: "October 2020 – July 2021",
+    year: "February 2020 – July 2021",
     description: "",
     responsibilities: [
       "Understand user needs and ensure a seamless user experience.",
