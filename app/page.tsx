@@ -1,11 +1,10 @@
 "use client";
-import React, { useRef } from "react";
 import emailjs from "emailjs-com";
-import ExperienceSection from "./experiences";
-import Skills from "./skills";
-import { useEffect } from "react";
-import ProjectSection from "./project";
+import { useEffect, useRef } from "react";
 import BlogsPage from "./blog";
+import ExperienceSection from "./experiences";
+import ProjectSection from "./project";
+import Skills from "./skills";
 
 export default function HomePage() {
   const form = useRef<any>();
@@ -28,18 +27,18 @@ export default function HomePage() {
     <>
       <section
         id="home"
-        className="min-h-screen flex flex-col justify-center items-start px-10"
+        className="min-h-screen flex flex-col justify-center items-start md:px-20 relative bg-[#0a192f] text-white"
       >
         <p className="text-green-400 md:text-2xl mb-4 typing">Hi, my name is</p>
-        <h1 className="text-5xl md:text-6xl font-bold mb-4 typing2">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 typing2">
           Quazi Mahabubul Hasan
         </h1>
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-400 mb-4">
-          I build and test things for the web.
+        <h2 className="text-2xl md:text-4xl font-bold text-gray-400 mb-4">
+          I test, break, and improve software across web and mobile platforms.
         </h2>
-        <p className="max-w-lg text-gray-400 mb-6">
-          I&apos;m a Software Engineer in Test specializing in testing systems.
-          I also love to develop!
+        <p className="text-gray-400 mb-6">
+          As a QA Automation Engineer, I bridge the gap between code and
+          confidence; occasionally write a little myself, just for fun.
         </p>
         <a
           href="/cv.pdf"

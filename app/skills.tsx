@@ -1,5 +1,4 @@
 // components/Skills.tsx
-import React from 'react';
 
 const skills = [
   {
@@ -20,13 +19,13 @@ const skills = [
       { name: "TailWind", image: "/t.svg" },
       { name: "JavaScript", image: "/js.svg" },
       { name: "TypeScript", image: "/ts.svg" },
-      { name: "C#", image: "/c++.svg" },
+      // { name: "C#", image: "/c++.svg" },
       { name: "MongoDB", image: "/mongo.svg" },
       // { name: "Node.js", image: "/node.svg" },
       { name: "Next.js", image: "/next.svg" },
       // { name: "React", image: "/react.svg" },
-      { name: "ASP.net", image: "/asp.png" },
-      // { name: "MySQL", image: "/mysql.svg" },
+      // { name: "ASP.net", image: "/asp.png" },
+      { name: "MySQL", image: "/mysql.svg" },
     ],
   },
   {
@@ -52,11 +51,20 @@ export default function Skills() {
         <h1 className="text-4xl font-bold -mt-4 mb-8 text-black">Skills</h1>
         {skills.map((skillCategory, index) => (
           <div key={index} className="mb-10">
-            <h2 className="text-2xl font-semibold mb-6 text-gray-800">{skillCategory.category}</h2>
+            <h2 className="text-2xl font-semibold mb-6 text-gray-800">
+              {skillCategory.category}
+            </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
               {skillCategory.items.map((skill, skillIndex) => (
-                <div key={skillIndex} className="skill-card bg-gray-100 p-4 rounded shadow-lg">
-                  <img src={skill.image} alt={skill.name} className="w-16 mx-auto" />
+                <div
+                  key={skillIndex}
+                  className="skill-card bg-gray-100 p-4 rounded shadow-lg"
+                >
+                  <img
+                    src={skill.image}
+                    alt={skill.name}
+                    className="w-16 mx-auto"
+                  />
                   <p className="mt-2 text-gray-700">{skill.name}</p>
                 </div>
               ))}
