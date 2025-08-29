@@ -31,7 +31,7 @@ const experiences = [
   },
   {
     title: "SQA Engineer",
-    company: "Catch The Review LLC",
+    company: "iLafe LLC",
     year: "August 2021 - September 2023",
     description: "",
     responsibilities: [
